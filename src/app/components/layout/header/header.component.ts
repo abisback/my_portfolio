@@ -10,7 +10,7 @@ import { ActiveSectionService } from '../../../core/active-section.service';
   styleUrl: './header.component.scss'
 })
 export class HeaderComponent {
-
+  isMenuOpen = false;
 
   constructor(private viewportScroller: ViewportScroller,private activeSectionService: ActiveSectionService) { }
 
@@ -54,7 +54,10 @@ export class HeaderComponent {
   }
 
   toggleMenu() {
-
-
-}
+    this.isMenuOpen = !this.isMenuOpen;
+    const menu = document.getElementById('menu');
+    if (menu) {
+      menu.classList.toggle('hidden');
+    }
+  }
 }

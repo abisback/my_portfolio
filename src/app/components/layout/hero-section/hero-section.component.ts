@@ -127,7 +127,7 @@ export class HeroSectionComponent {
     doc.setFont("helvetica", "italic");
     doc.text("MAKAUT University | 2018 - 2021", 15, 250);
     doc.text("Tamralipta Institute of Management and Technology | 2018 - 2021", 15, 255);
-    doc.text("Percentage: 75.00%", 15, 260);
+    doc.text("Percentage: 84.00%", 15, 260);
 
     doc.setFontSize(12);
     doc.setFont("helvetica", "bold");
@@ -137,7 +137,7 @@ export class HeroSectionComponent {
     doc.setFont("helvetica", "italic");
     doc.text("MAKAUT University | 2021 - 2023", 15, 275);
     doc.text("Haldia Institute of Technology | 2021 - 2023", 15, 280);
-    doc.text("Percentage: 85.00%", 15, 285);
+    doc.text("CGPA: 8.65", 15, 285);
 
     // Footer: Contact Info
     doc.setFontSize(10);
